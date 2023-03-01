@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chorale Jéricho | EEC Toket</title>
+    <link rel="icon" type="image/x-icon" href="logo.png" />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        transition: 0.5s ease;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        outline: 2px solid;
+        height: 100vh;
+        background-color: #317874;
+      }
+
+      h1 {
+        text-align: center;
+        font-size: 2.4rem;
+        color: #317874;
+      }
+
+      section {
+        background-color: #e2d2f9;
+        width: fit-content;
+        padding: 2rem 4rem;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+      }
+
+      .divinput {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #input {
+        text-align: center;
+        padding: 0.8rem;
+        margin: 1rem;
+        border-radius: 5px;
+        border: none;
+        background-color: #8fc0bd;
+        color: #000;
+        font-weight: 500;
+        font-size: 1.5rem;
+      }
+
+      #result {
+        text-align: center;
+        pointer-events: none;
+        padding: 0.8rem;
+        margin: 1rem;
+        border-radius: 5px;
+        border: none;
+        background-color: #8fc0bd;
+        color: #000;
+        font-weight: 500;
+        font-size: 1.5rem;
+      }
+
+      #input:focus {
+        outline: 2px solid #317874;
+      }
+
+      ::placeholder {
+        opacity: 0.7;
+        color: #000;
+      }
+
+      select {
+        cursor: pointer;
+        border: none;
+        border-radius: 5px;
+        margin: 1rem;
+        border: none;
+        color: #fff;
+        padding: 0.5rem;
+        background: #317874;
+        font-size: 1.5rem;
+      }
+
+      select:hover {
+        outline: 2px solid #84b7b5;
+      }
+
+      option {
+        background: #317874;
+        color: #fff;
+      }
+
+      @media screen and (max-width: 650px) {
+        h1 {
+          font-size: 2rem;
+        }
+        section {
+          margin: 1rem;
+          padding: 1rem;
+        }
+        select {
+          font-size: 1rem;
+          width: 30%;
+          margin: 0.5rem;
+        }
+        #input {
+          margin: 0.5rem;
+          font-size: 1rem;
+          width: 50%;
+        }
+        #result {
+          margin: 0.5rem;
+          font-size: 1rem;
+          width: 50%;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <section>
+      <div class="text">
+        <h1>Chorale Jéricho | EEC Toket</h1>
+      </div>
+      <img src="logo.png" alt="EEC" width="150px" height="150px" />
+    </section>
+  </body>
+</html>
